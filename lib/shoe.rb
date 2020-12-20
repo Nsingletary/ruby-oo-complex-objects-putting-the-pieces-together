@@ -7,7 +7,6 @@ def initialize(brand)
   if BRANDS.include?(brand) == false
     BRANDS << brand
   end
-end
 
 def cobble
   self.condition = "new"
