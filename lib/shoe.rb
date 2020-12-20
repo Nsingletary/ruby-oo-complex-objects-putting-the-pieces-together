@@ -2,6 +2,7 @@
 attr_accessor :color, :size, :material, :condition
 attr_reader :brand
 
+class Shoe
 def initialize(brand)
   @brand = brand
   if BRANDS.include?(brand) == false
